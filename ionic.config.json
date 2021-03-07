@@ -1,0 +1,7 @@
+{
+  "name": "PronoPro",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
