@@ -15,10 +15,10 @@
 
 <script>
 import Layout from "@/components/Layout";
-import { IonCard, IonCardHeader, IonCardSubtitle, IonCardContent, IonCardTitle } from '@ionic/vue'
+import { IonCard, IonCardHeader, IonCardSubtitle, IonCardContent, IonCardTitle, IonImg, IonButton } from '@ionic/vue'
 export default {
 name: "Account",
-  components: {Layout, IonCard, IonCardTitle, IonCardContent, IonCardSubtitle, IonCardHeader},
+  components: {Layout, IonCard, IonCardTitle, IonCardContent, IonCardSubtitle, IonCardHeader, IonImg, IonButton},
   mounted() {
     if (!this.$store.getters.user.connected) {
       this.$router.replace('/login?next=/account');

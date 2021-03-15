@@ -24,7 +24,7 @@ export default {
   },
   methods: {
     deletePronostic() {
-      this.$store.dispatch('deletePronostic', this.pronoId);
+      this.$store.dispatch('deleteProno', this.pronoId);
       this.$router.replace('/admin/prono');
     }
   },
